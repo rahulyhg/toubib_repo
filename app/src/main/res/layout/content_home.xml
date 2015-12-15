@@ -9,40 +9,91 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_home" tools:context=".home">
 
+
+    <ImageView
+        android:id="@+id/jobIcon_img"
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:layout_marginRight="10sp"
+        android:src="@drawable/ic_jobsearch"
+        android:layout_marginBottom="@dimen/champ_margin"/>
     <TextView
         android:id="@+id/job_search_textview"
         android:text="@string/job_search_textview_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:fontFamily="sans-serif-light"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        android:layout_toEndOf="@id/jobIcon_img"
+        android:layout_toRightOf="@id/jobIcon_img"/>
     <EditText
         android:id="@+id/job_search_edittext"
         android:text="@string/job_search_edittext_text"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic"
+        android:textColor="@color/inputColor"
+        android:paddingTop="@dimen/champ_padding"
+        android:paddingRight="@dimen/champ_padding"
+        android:paddingBottom="@dimen/champ_padding"
+        android:paddingLeft="@dimen/champ_padding"
+        android:background="@drawable/back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/job_search_textview"/>
+        android:layout_below="@id/jobIcon_img"
+        android:layout_marginBottom="@dimen/champ_margin_next"/>
+    <ImageView
+        android:id="@+id/cityIcon_img"
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:layout_marginRight="10sp"
+        android:src="@drawable/ic_citysearch"
+        android:layout_marginBottom="@dimen/champ_margin"
+        android:layout_below="@id/job_search_edittext"/>
     <TextView
         android:id="@+id/city_search_textview"
         android:text="@string/city_search_textview_text"
-        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/job_search_edittext"/>
+        android:layout_marginTop="2sp"
+        android:layout_below="@id/job_search_edittext"
+        android:layout_toEndOf="@id/cityIcon_img"
+        android:layout_toRightOf="@id/cityIcon_img"/>
     <EditText
         android:id="@+id/city_search_edittext"
         android:text="@string/city_search_edittext_text"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic"
+        android:textColor="@color/inputColor"
+        android:paddingTop="@dimen/champ_padding"
+        android:paddingRight="@dimen/champ_padding"
+        android:paddingBottom="@dimen/champ_padding"
+        android:paddingLeft="@dimen/champ_padding"
+        android:background="@drawable/back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/city_search_textview"/>
+        android:layout_below="@id/cityIcon_img"
+        android:layout_marginBottom="@dimen/champ_margin_next"/>
     <CheckBox
         android:id="@+id/convention_checkbox"
         android:text="@string/convention_checkbox_text"
+        android:textColor="@color/checkboxColor_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/city_search_edittext"/>
+        android:layout_marginBottom="70sp"
+        android:layout_below="@id/city_search_edittext"/>
     <Button
         android:id="@+id/search_button"
+        android:background="@drawable/back_button"
         android:text="@string/search_button_text"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/convention_checkbox"/>
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/convention_checkbox"/>
 
 </RelativeLayout>
