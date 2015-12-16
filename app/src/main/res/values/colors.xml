@@ -3,4 +3,5 @@
     <color name="colorPrimary">#1790df</color>
     <color name="colorPrimaryDark">#127bd7</color>
     <color name="colorAccent">#e74c3c</color>
+    <color name="google_sign_in_button">#ffffff</color>
 </resources>

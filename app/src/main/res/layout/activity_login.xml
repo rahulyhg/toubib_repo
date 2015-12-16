@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical" android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.toubib.toubib.LoginActivity"
+    android:background="#44a0cf">
+
+    <!-- Login progress -->
+    <ProgressBar android:id="@+id/login_progress" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" android:visibility="gone" />
+
+    <ScrollView android:id="@+id/login_form" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:id="@+id/social_login_form" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical">
+
+            <Button android:id="@+id/facebook_sign_in_button" style="?android:textAppearanceSmall"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="200dp" android:text="@string/facebook_sign_in"
+                android:background="#3b599f"
+                android:textColor="#FFF"
+                android:textAllCaps="false"
+                />
+
+            <Button android:id="@+id/google_sign_in_button" style="?android:textAppearanceSmall"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/google_sign_in"
+                android:layout_marginTop="8dp"
+                android:textColor="#000" android:background="@color/google_sign_in_button"
+                android:textAllCaps="false"
+                />
+
+            <RelativeLayout android:id="@+id/standard_login_form" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="vertical">
+
+                <Button android:id="@+id/sign_in_action_button" style="?android:textAppearanceSmall"
+                   android:layout_width="150dp" android:layout_height="wrap_content"
+                   android:text="@string/standard_sign_in"
+                    android:background="@drawable/signin"
+                    android:textAllCaps="false"/>
+
+                <Button android:id="@+id/connect_action_button" style="?android:textAppearanceSmall"
+                    android:layout_width="150dp" android:layout_height="wrap_content"
+                    android:text="@string/standard_connect" android:layout_toEndOf="@+id/sign_in_action_button"
+                    android:layout_toRightOf="@+id/sign_in_action_button"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/login_legal_text"
+                android:text="@string/login_legal_textview_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
