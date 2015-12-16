@@ -7,4 +7,16 @@
     <string name="city_search_edittext_text">Rechercher...</string>
     <string name="convention_checkbox_text">Afficher que les médecins conventionnés</string>
     <string name="search_button_text">Valider</string>
+    <string name="title_activity_search_results">Chercher un praticien</string>
+    <string name="doctor_first_name_textview_text">Martin</string>
+    <string name="doctor_last_name_textview_text">Dufour</string>
+    <string name="doctor_address_textview_text">8 rue des oiseaux</string>
+    <string name="doctor_postalCode_textview_text">75010</string>
+    <string name="doctor_city_textview_text">Paris 10</string>
+    <string name="doctor_contact_button_text">Contact</string>
+    <string name="doctor_job_textview_text">Généraliste</string>
+    <string name="doctor_convention_yes_button_text">Conventionné</string>
+    <string name="doctor_convention_no_button_text">Non conventionné</string>
+    <string name="title_toolbar">Chercher un praticien</string>
+
 </resources>

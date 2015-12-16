@@ -5,4 +5,5 @@
     <color name="colorAccent">#e74c3c</color>
     <color name="inputColor">#c2c9d1</color>
     <color name="checkboxColor_text">#8c8c8c</color>
+    <color name="doctornameColor">#7fba00</color>
 </resources>
