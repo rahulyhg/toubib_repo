@@ -8,7 +8,7 @@
     <string name="convention_checkbox_text">Afficher que les médecins conventionnés</string>
 
     <string name="search_button_text">Valider</string>
-<<<<<<< HEAD
+
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
@@ -28,7 +28,7 @@
     <string name="standard_sign_in">Inscription</string>
     <string name="standard_connect">Connexion</string>
     <string name="login_legal_textview_text">En m\'inscrivant, j\'accepte les Conditions générales ainsi que la Politique de confidentialité</string>
-=======
+
     <string name="title_activity_search_results">Chercher un praticien</string>
     <string name="doctor_first_name_textview_text">Martin</string>
     <string name="doctor_last_name_textview_text">Dufour</string>
@@ -41,5 +41,5 @@
     <string name="doctor_convention_no_button_text">Non conventionné</string>
     <string name="title_toolbar">Chercher un praticien</string>
 
->>>>>>> origin/master
+
 </resources>
