@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name">toubib</string>
+    <string name="app_name">Toubib</string>
     <string name="action_settings">Settings</string>
     <string name="job_search_textview_text">Quel type de praticien ?</string>
     <string name="job_search_edittext_text">Rechercher...</string>
     <string name="city_search_textview_text">Dans quelle ville ?</string>
     <string name="city_search_edittext_text">Rechercher...</string>
-    <string name="convention_checkbox_text">Médecins conventionnés</string>
+    <string name="convention_checkbox_text">Afficher que les médecins conventionnés</string>
+
     <string name="search_button_text">Valider</string>
     <string name="title_activity_login">Sign in</string>
 

@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#127bd7</color>
     <color name="colorAccent">#e74c3c</color>
     <color name="google_sign_in_button">#ffffff</color>
+    <color name="inputColor">#c2c9d1</color>
+    <color name="checkboxColor_text">#8c8c8c</color>
 </resources>
